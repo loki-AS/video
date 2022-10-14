@@ -9,8 +9,8 @@ import { BsFillPauseFill, BsFillPlayFill } from 'react-icons/bs';
 import { HiVolumeUp, HiVolumeOff } from 'react-icons/hi';
 import { BASE_URL } from '../../utils';
 import useAuthStore from '../../store/authStore'
-import Comments from '../../Components/Comments'
-import LikeButton from '../../Components/LikeButton'
+import Comments from '../../Components/comments'
+import LikeButton from '../../Components/likeButton'
 
 const Detail = ({postDetails}) => {
     const [post, setPost] = useState(postDetails);

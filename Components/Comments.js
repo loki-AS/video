@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { GoVerified } from 'react-icons/go';
 
 import useAuthStore from '../store/authStore';
-import NoResults from './NoResults';
+import NoResults from './noResults';
 
 const Comments = ({isPostingComment, comment, setComment, addComment, comments}) => {
   const { userProfile, allUsers } = useAuthStore()

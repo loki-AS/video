@@ -5,9 +5,9 @@ import Link from 'next/link'
 import { AiFillHome, AiOutlineMenu } from 'react-icons/ai';
 import { ImCancelCircle } from 'react-icons/im';
 import GoogleLogin from 'react-google-login'
-import Discover from '../Components/Discover'
-import SuggestedAccounts from '../Components/SuggestedAccounts'
-import Footer from '../Components/Footer'
+import Discover from './discover'
+import SuggestedAccounts from './suggestedAccounts'
+import Footer from './footer'
 
 const Sidebar = () => {
   const [showSidebar, setshowSidebar] = useState(true)

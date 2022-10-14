@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 
-import VideoCard from '../components/VideoCard';
+import VideoCard from '../components/videoCard';
 import { BASE_URL } from '../utils';
-import NoResults from '../components/NoResults';
+import NoResults from '../components/noResults';
 
 const Home = ({ videos }) => {
   return (

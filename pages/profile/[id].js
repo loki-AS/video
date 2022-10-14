@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { GoVerified } from 'react-icons/go';
 import axios from 'axios';
 
-import VideoCard from '../../components/VideoCard';
-import NoResults from '../../components/NoResults';
+import VideoCard from '../../components/videoCard';
+import NoResults from '../../components/noResults';
 import { BASE_URL } from '../../utils';
 
 const Profile = ({ data }) => {
