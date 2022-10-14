@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import '../styles/globals.css'
-import Navbar from '../Components/Navbar'
-import Sidebar from '../Components/Sidebar'
+import Navbar from '../components/Navbar'
+import Sidebar from '../components/Sidebar'
 import { GoogleOAuthProvider } from '@react-oauth/google';
 
 function MyApp({ Component, pageProps }) {
